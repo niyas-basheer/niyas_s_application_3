@@ -1,0 +1,83 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  :root {
+    /* Global Colors */
+    --global-bg-1: #000000;
+    --global-bg-2: #04070d;
+    --global-bg-3: #0d0f17;
+    --global-bg-4: #10131c;
+    --global-bg-5: #141414;
+    --global-bg-6: #545b7d;
+    --global-bg-7: #555878;
+    --global-bg-8: #636996;
+    --global-bg-9: #a6daff;
+    --global-bg-10: #d5dbe6;
+    --global-bg-11: #d8e7f211;
+    --global-bg-12: #ffffff;
+    --global-bg-13: #ffffff0c;
+    --global-bg-14: #ffffff19;
+
+    /* Global Text Colors */
+    --global-text-1: #000000;
+    --global-text-2: #b8c7d97f;
+    --global-text-3: #bfbfbf;
+    --global-text-4: #d5dbe6;
+    --global-text-5: #d5dbe67f;
+    --global-text-6: #d5dbe699;
+    --global-text-7: #d5dbe69e;
+    --global-text-8: #d5dbe6a5;
+    --global-text-9: #d5dbe6b2;
+    --global-text-10: #d5dbe6cc;
+    --global-text-11: #ffffff;
+    --global-text-12: #ffffffcc;
+
+    /* Button Colors */
+    --button-bg-1: #10131c87;
+
+    /* Header Colors */
+    --header-bg-1: #08090abf;
+    --header-text-1: #ffffffbf;
+  }
+}
+
+@layer utilities {
+  /* Global Background */
+  .bg-global-1 { background-color: var(--global-bg-1); }
+  .bg-global-2 { background-color: var(--global-bg-2); }
+  .bg-global-3 { background-color: var(--global-bg-3); }
+  .bg-global-4 { background-color: var(--global-bg-4); }
+  .bg-global-5 { background-color: var(--global-bg-5); }
+  .bg-global-6 { background-color: var(--global-bg-6); }
+  .bg-global-7 { background-color: var(--global-bg-7); }
+  .bg-global-8 { background-color: var(--global-bg-8); }
+  .bg-global-9 { background-color: var(--global-bg-9); }
+  .bg-global-10 { background-color: var(--global-bg-10); }
+  .bg-global-11 { background-color: var(--global-bg-11); }
+  .bg-global-12 { background-color: var(--global-bg-12); }
+  .bg-global-13 { background-color: var(--global-bg-13); }
+  .bg-global-14 { background-color: var(--global-bg-14); }
+
+  /* Global Text */
+  .text-global-1 { color: var(--global-text-1); }
+  .text-global-2 { color: var(--global-text-2); }
+  .text-global-3 { color: var(--global-text-3); }
+  .text-global-4 { color: var(--global-text-4); }
+  .text-global-5 { color: var(--global-text-5); }
+  .text-global-6 { color: var(--global-text-6); }
+  .text-global-7 { color: var(--global-text-7); }
+  .text-global-8 { color: var(--global-text-8); }
+  .text-global-9 { color: var(--global-text-9); }
+  .text-global-10 { color: var(--global-text-10); }
+  .text-global-11 { color: var(--global-text-11); }
+  .text-global-12 { color: var(--global-text-12); }
+
+  /* Button */
+  .bg-button-1 { background-color: var(--button-bg-1); }
+
+  /* Header */
+  .bg-header-1 { background-color: var(--header-bg-1); }
+  .text-header-1 { color: var(--header-text-1); }
+}
